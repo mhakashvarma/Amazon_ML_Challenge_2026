@@ -1,0 +1,29 @@
+V5 FINAL REPORT
+
+Model: CatBoost
+V5 validation Entity Macro F0.5: 0.902677
+Reference V3 baseline: 0.889883
+Threshold: 0.60
+Best iteration: 669
+Feature count: 20
+
+V5 added features:
+1. similarity_gap
+2. max_similarity
+3. similarity_product
+4. token_overlap_gap
+
+Reload verification:
+1000 validation candidates checked
+Max prediction difference: 0.0
+Mean prediction difference: 0.0
+Predictions identical: True
+
+Threshold predictions:
+0.55 -> 4601
+0.60 -> 4581
+0.65 -> 4552
+0.70 -> 4527
+
+Note:
+The 0.902677 validation score was obtained on the reconstructed S1-level validation split.
